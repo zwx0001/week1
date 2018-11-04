@@ -35,12 +35,25 @@ section {
         width: 100%;
         height: pxTorem(160px);
         .swiper-wrapper {
-            width: 30%;
+            width: 100%;
             height: 100%;
             .swiper-slide {
-                width: pxTorem(130px)!important;
+                width: 100%;
                 height: 100%;
-                margin: 0 pxTorem(10px);
+                margin-left: pxTorem(10px);
+                border-radius: pxTorem(10px);
+                background: #fff;
+                img {
+                    width: 100%;
+                    height: 70%;
+                    border-top-left-radius: pxTorem(10px);
+                    border-top-right-radius: pxTorem(10px);
+                }
+                p {
+                    text-align: center;
+                    line-height: pxTorem(40px);
+                    font-size: pxTorem(14px);
+                }
             }
         }
         .slide1 {

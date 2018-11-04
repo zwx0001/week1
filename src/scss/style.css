@@ -229,14 +229,29 @@ section .container {
 }
 
 section .container .swiper-wrapper {
-  width: 30%;
+  width: 100%;
   height: 100%;
 }
 
 section .container .swiper-wrapper .swiper-slide {
-  width: 3.46667rem !important;
+  width: 100%;
   height: 100%;
-  margin: 0 0.26667rem;
+  margin-left: 0.26667rem;
+  border-radius: 0.26667rem;
+  background: #fff;
+}
+
+section .container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 0.26667rem;
+  border-top-right-radius: 0.26667rem;
+}
+
+section .container .swiper-wrapper .swiper-slide p {
+  text-align: center;
+  line-height: 1.06667rem;
+  font-size: 0.37333rem;
 }
 
 section .container .slide1 {

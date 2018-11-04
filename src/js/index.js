@@ -2,13 +2,14 @@
  * @Author: mikey.zhang 
  * @Date: 2018-11-04 14:38:25 
  * @Last Modified by: mikey.zhang
- * @Last Modified time: 2018-11-04 15:19:23
+ * @Last Modified time: 2018-11-04 15:48:16
  */
 
 //swiper轮播图
 var mySwiper = new Swiper('.container', {
     //autoplay: true,
-
+    slidesPerView: 3,
+    slidesPerGroup: 3
 })
 
 //better-scaroll
